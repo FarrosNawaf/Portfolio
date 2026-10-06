@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Farros Atsir | Portfolio Web</title>
+</head>
+<body>
+    <div class="preloader"></div>
+
+    <!-- sidebar -->
+    <input type="checkbox" name="check" id="check">
+
+    <!-- overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <div class="header">
+        <label for="check">
+            <div class='bx bx-x tgl' id="times"></div>
+            <div class='bx bx-menu tgl' id="bars"></div>
+        </label>
+        <div class="head">
+            <img src="img/logo sidebar.png" alt="Logo">
+        </div>
+        <ol>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ol>
+    </div>
+
+    <!-- home -->
+    <section class="home" id="home">
+        <video src="img/bg-home.webm" autoplay muted loop></video>
+        <div class="home-text" data-aos="fade-down" data-aos-duration="1000">
+            <h5>HI THERE!! MY NAME IS</h5>
+            <h1>FARROS</h1> <h1>ATSIR</h1> <h1>NAWAF</h1>
+            <h5>I'M A <span class="multiple-text"></span></h5>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="about-img" data-aos="fade-right" data-aos-duration="500">
+            <img src="img/home.png" alt="about">
+        </div>
+        <div class="about-text" data-aos="fade-left" data-aos-duration="500">
+            <h1 class="heading">About Me</h1>
+            <p class="intro">
+                Hello Everyone!! My name is Farros Atsir Nawaf, usually called Farros. 
+                I was born in the city of Cirebon on Saturday, 12 January 2008. 
+                My hobbies are coding, badminton, reading novels and comics.
+            </p>
+            <a href="cv_farros.pdf" download="cv" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills" id="skills">
+        <h1 class="heading" data-aos="fade-down" data-aos-duration="500">My Skills</h1>
+        <div class="main-container">
+            <p class="nama-skill" data-aos="fade-up" data-aos-duration="500">HTML</p>
+            <div class="container"  data-aos="fade-up" data-aos-duration="500">
+                <div class="html skillset">85%</div>
+            </div>
+            <p class="nama-skill-dua" data-aos="fade-up" data-aos-duration="500">CSS</p>
+            <div class="container" data-aos="fade-up" data-aos-duration="500">
+                <div class="css skillset">70%</div>
+            </div>
+            <p class="nama-skill-tiga" data-aos="fade-up" data-aos-duration="500">JavaScript</p>
+            <div class="container" data-aos="fade-up" data-aos-duration="500">
+                <div class="js skillset">40%</div>
+            </div>
+            <p class="nama-skill-empat" data-aos="fade-up" data-aos-duration="500">Bootstrap</p>
+            <div class="container" data-aos="fade-up" data-aos-duration="500">
+                <div class="bootstrap skillset">50%</div>
+            </div>
+            <p class="nama-skill-enam" data-aos="fade-up" data-aos-duration="500">Tailwind</p>
+            <div class="container" data-aos="fade-up" data-aos-duration="500">
+                <div class="tailwind skillset">60%</div>
+            </div>
+            <p class="nama-skill-tujuh" data-aos="fade-up" data-aos-duration="500">Flutter</p>
+            <div class="container" data-aos="fade-up" data-aos-duration="500">
+                <div class="flutter skillset">50%</div>
+            </div>
+            <p class="nama-skill-tujuh" data-aos="fade-up" data-aos-duration="500">Design</p>
+            <div class="container" data-aos="fade-up" data-aos-duration="500">
+                <div class="design skillset">70%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading" data-aos="fade-down" data-aos-duration="500">My Projects</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/QuranWeb.png" alt="" data-aos="fade-down-right" data-aos-duration="500">
+                <div class="text">
+                    <div class="card" data-aos="fade-up-left" data-aos-duration="500">
+                        <div class="card-details">
+                            <p class="text-title">Al - Qur'an Web</p>
+                            <p class="text-body">
+                                This Al-Quran website will help you in reading the Al-Quran. 
+                                If you don't bring a Mushaf then you can open this website to 
+                                read the Al-Quran. If you don't want to read the Al-Quran and only 
+                                want to hear the Murathal of the Al-Quran, then on this website 
+                                there is also a feature to hear the Murathal read by Sheikh Misyari Rasyid.
+                                I created this website with HTML, Bootstrap, Javascript, API.
+                            </p>
+                        </div>
+                        <a href="https://github.com/FarrosNawaf/QuranWeb" class="card-button">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box-dua">
+                <img src="img/coffeemoon.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
+                <div class="text">
+                    <div class="card" data-aos="fade-up-right" data-aos-duration="500">
+                        <div class="card-details">
+                            <p class="text-title">CoffeeMoon</p>
+                            <p class="text-body">
+                                This website explains about a cafe called CoffeeMoon, and of course it 
+                                doesn't really exist, it's just a fabrication. This website project is 
+                                about darkmode and lightmode using javascript. So CoffeeMoon is just the theme.
+                            </p>
+                        </div>
+                        <a href="https://github.com/FarrosNawaf/CoffeeMoon" class="card-button">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/hoyoevent.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
+                <div class="text">
+                    <div class="card" data-aos="fade-up-right" data-aos-duration="500">
+                        <div class="card-details">
+                            <p class="text-title">HoYo Event Laravel</p>
+                            <p class="text-body">
+                                I created this website with my friends guided by my teacher. So this 
+                                website is an ecommerce website created using Laravel 10. On the website 
+                                I created, I used the theme HoYo Event. This project is the project with 
+                                the most errors of all my projects :D
+                            </p>
+                        </div>
+                        <a href="https://github.com/FarrosNawaf/HoyoEventLaravel" class="card-button">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box-dua mobile">
+                <img src="img/mokap ki ar.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
+                <div class="text">
+                    <div class="card" data-aos="fade-up-right" data-aos-duration="500">
+                        <div class="card-details">
+                            <p class="text-title">QR Generator & Scanner</p>
+                            <p class="text-body">
+                                This app is about QR code generator and scanner. 
+                                So in this application we can create QR codes and 
+                                add background colors with available colors, also we can scan QR codes.
+                            </p>
+                        </div>
+                        <a href="https://github.com/FarrosNawaf/QRScannerGenerator" class="card-button">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box mobile">
+                <img src="img/mokap.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
+                <div class="text">
+                    <div class="card" data-aos="fade-up-right" data-aos-duration="500">
+                        <div class="card-details">
+                            <p class="text-title">E-Commerce App</p>
+                            <p class="text-body">
+                                This app is an e-commerce app with some features that are 
+                                common in other e-commerce apps, such as authentication, 
+                                adding to cart, favorite list, checkout, and darkmode lightmode, 
+                                as well as being able to log out after logging in to this app.
+                            </p>
+                        </div>
+                        <a href="https://github.com/FarrosNawaf/FlutterEcommerce" class="card-button">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box-dua mobile">
+                <img src="img/mokap ai generator.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
+                <div class="text">
+                    <div class="card" data-aos="fade-up-right" data-aos-duration="500">
+                        <div class="card-details">
+                            <p class="text-title">DestIndo App</p>
+                            <p class="text-body">
+                                This application is a tourist attraction recommender application. 
+                                Using Gemini AI to recommend tourist attractions from the city 
+                                we want and we also get an estimate of the cost to enter the 
+                                tourist attraction. We can also save the tourist attractions 
+                                we want to history and we can see them again on the history page.
+                            </p>
+                        </div>
+                        <a href="https://github.com/FarrosNawaf/DestIndoApp" class="card-button">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="contact">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-media">
+            <li><a href="https://www.instagram.com/ros_atsir/"><i class='bx bxl-instagram'></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCKyxeFpd-mM4yMapohfanog"><i class='bx bxl-youtube' ></i></a></li>
+            <li><a href="https://github.com/FarrosNawaf"><i class='bx bxl-github'></i></a></li>
+            <li><a href="https://www.linkedin.com/in/farros-atsir-966473285/"><i class='bx bxl-linkedin-square'></i></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p>Copyright &copy; 2023 By Farros Atsir Nawaf | All Right Reserved</p>
+    </footer>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- script js -->
+    <script src="script.js"></script>
+    <!-- aos scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
